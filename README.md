@@ -1,4 +1,4 @@
-# FLUTTER CATALOG Job Interview TASK:
+# FLUTTER CATALOG TASK:
 
 ## Dependencies
 
@@ -13,7 +13,7 @@ flutter_screenutil
 ## Screenshots
                                                    Product Screen                                                   
 :-----------------------------------------------------------------------------------------------------------------: |
- ![https://github.com/ahmedfyala/ProductCatalogRout/blob/357363b7d77e820fb9e93b5d6ca0b374dc9ec9a6/screen%20shots/product_screen.jpg]() 
+![](https://github.com/ahmedfyala/ProductCatalogRout/blob/357363b7d77e820fb9e93b5d6ca0b374dc9ec9a6/screen%20shots/product_screen.jpg)
 
 ## Directory Structure
 <details>
@@ -49,6 +49,7 @@ lib
         │   ├── product_list_view.dart
         │   └── products_widget.dart
         └── main.dart
+</details>
 
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
