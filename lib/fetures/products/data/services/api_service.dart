@@ -1,4 +1,3 @@
-import 'dart:js_interop_unsafe';
 
 import 'package:dio/dio.dart';
 import 'package:task1_rout/core/utilis/api_constance.dart';

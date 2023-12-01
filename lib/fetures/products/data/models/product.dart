@@ -1,17 +1,17 @@
 import 'package:equatable/equatable.dart';
 
 class Product extends Equatable {
-  final int? id;
-  final String? title;
-  final String? description;
-  final double? price;
-  final double? discountPercentage;
-  final double? rating;
-  final int? stock;
-  final String? brand;
-  final String? category;
-  final String? thumbnail;
-  final List<String>? images;
+  final int id;
+  final String title;
+  final String description;
+  final double price;
+  final double discountPercentage;
+  final double rating;
+  final int stock;
+  final String brand;
+  final String category;
+  final String thumbnail;
+  final List<String> images;
 
   Product({
     required this.id,

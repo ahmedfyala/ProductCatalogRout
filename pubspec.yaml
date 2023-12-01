@@ -23,6 +23,7 @@ dependencies:
   cached_network_image: ^3.3.0
   either_dart: ^1.0.0
   dio: ^5.4.0
+  flutter_screenutil: ^5.9.0
 
 
 dev_dependencies:
