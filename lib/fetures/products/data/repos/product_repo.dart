@@ -1,5 +1,4 @@
 import 'package:either_dart/either.dart';
-
 import '../../../../core/errors/faliure.dart';
 import '../models/product.dart';
 
