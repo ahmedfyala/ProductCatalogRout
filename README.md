@@ -1,6 +1,20 @@
-# task1_rout
+# FLUTTER CATALOG Job Interview TASK:
 
-A new Flutter project.
+## Dependencies
+
+get_it
+flutter_bloc
+equatable
+cached_network_image
+either_dart
+dio: ^5.4.0
+flutter_screenutil
+
+## Screenshots
+
+                                                   Product Screen                                                   
+:-----------------------------------------------------------------------------------------------------------------: |
+ ![]() 
 
 ## Getting Started
 
