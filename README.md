@@ -11,16 +11,45 @@ dio: ^5.4.0
 flutter_screenutil
 
 ## Screenshots
-
                                                    Product Screen                                                   
 :-----------------------------------------------------------------------------------------------------------------: |
- ![]() 
+ ![https://github.com/ahmedfyala/ProductCatalogRout/blob/357363b7d77e820fb9e93b5d6ca0b374dc9ec9a6/screen%20shots/product_screen.jpg]() 
 
-## Getting Started
+## Directory Structure
+<details>
+     <summary> Click to expand </summary>
+lib
+├── core
+│   └── errors
+│       └── failure.dart
+├── utils
+│   └── service_locator
+│       ├── service_locator.dart
+│       ├── api_constants.dart
+│       ├── app_assets.dart
+│       └── app_color.dart
+├── features
+│   └── products
+│       ├── data
+│       │   ├── models
+│       │   │   └── product.dart
+│       │   └── repos
+│       │       ├── product_repo_impl.dart
+│       │       └── product_repo.dart
+│       └── services
+│           └── api_service.dart
+└── ui
+    ├── manager_product_cubit
+    │   ├── products_cubit.dart
+    │   └── products_state.dart
+    └── view
+        ├── widgets
+        │   ├── custom_error_widget.dart
+        │   ├── loading_widget.dart
+        │   ├── product_list_view.dart
+        │   └── products_widget.dart
+        └── main.dart
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
