@@ -1,3 +1,9 @@
-abstract class Faliure{}
+abstract class Failure{
 
-class ServerFaliure extends Faliure{}
+  final String errorMessage;
+ const Failure(this.errorMessage);
+}
+
+class ServerFailure extends Failure{
+  ServerFailure(super.errorMessage);
+}

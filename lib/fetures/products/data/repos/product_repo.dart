@@ -3,5 +3,5 @@ import '../../../../core/errors/faliure.dart';
 import '../models/product.dart';
 
 abstract class ProductRepo {
-  Future<Either<Faliure,List<Product>>> fetchProducts();
+  Future<Either<Failure,List<Product>>> fetchProducts();
 }
